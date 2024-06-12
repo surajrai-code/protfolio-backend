@@ -8,7 +8,9 @@ const projectSchema = new mongoose.Schema({
   imageUrl: {
     type: String
   },
-  technologies: [String],
+  technologies: {
+    type: String
+  } ,
   sourceCodeUrl: {
     type: String
   },
